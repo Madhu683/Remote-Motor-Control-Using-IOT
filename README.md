@@ -16,7 +16,8 @@ database and using the Firebase credentials and the key the commands are accesse
 The different components in the project are:
 ![blockDiagram](https://user-images.githubusercontent.com/70106840/131373097-47819f9a-40a4-4b1f-9bfd-a5bf5142a873.png)
 
-##Hardware##
+Hardware
+--------
 
 The hardware for the project consists of:
 - GISMO-V board with:
