@@ -79,8 +79,9 @@ o ArialMT_Plain_24
 - clear(): For clearing the display
 - drawSring(0,0,”fgfhgfhfhfh”): Takes three parameters – the x, y co-ordinates of the
 strat of the string and the string to be displayed
-- display(): No parameters. The memory buffer is transferred to display
-Internet connectivity
+- display(): No parameters. The memory buffer is transferred to display.
+
+### Internet connectivity ###
 The in-built WiFi object is used to connect to the WiFi network. The WiFi object has the
 following functions:
 - begin(): Takes two parameters:
@@ -89,7 +90,7 @@ o Password of the WiFi network
 - status(): Tells us whether the ESP32 is connected to the WiFi network or not.
 - localIP(): The IP address dynamically assigned to the ESP32 by the access point
 (router)
-Cloud database access
+### Cloud database access ###
 The cloud database used in the project is Google’s Firebase. It is a No-SQL database in
 which data is stored as Key-Value pairs. The following are the credentials of the database
 required for access:
