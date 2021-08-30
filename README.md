@@ -11,4 +11,8 @@ connect to the Internet. The motor commands are pushed to a cloud database – G
 Firebase which is created for the project.. The command is read by the ESP32 and used to
 switch the motor on or off. The database credentials – the host URL and the database
 authentication key are to be fed into the firmware. The Firebase database is a key-value based
-database and using the Firebase credentials and the key the commands are accessed 
+database and using the Firebase credentials and the key the commands are accessed .
+
+The different components in the project are:
+![blockDiagram](https://user-images.githubusercontent.com/70106840/131373097-47819f9a-40a4-4b1f-9bfd-a5bf5142a873.png)
+
