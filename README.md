@@ -21,9 +21,9 @@ Hardware
 
 The hardware for the project consists of:
 - GISMO-V board with:
-o ESP32 dual-core 32-bit processor with Wi-Fi and BLE
-o Relay for switching the motor
-o 0.96” OLED display with 128x64 resolution
+* ESP32 dual-core 32-bit processor with Wi-Fi and BLE
+* Relay for switching the motor
+* 0.96” OLED display with 128x64 resolution
 The relay used is a sugar cube relay which operates at 5V. A transistor drive circuit is present
 on the board for driving the relay. The base of the transistor is connected to GPIO13. By making
 this GPIO pin high/low the relay can be switched on/off. The Normally Open(NO) contacts of
